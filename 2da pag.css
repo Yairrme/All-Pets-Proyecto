@@ -1,0 +1,112 @@
+/* General reset */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    font-family: "Nunito", sans-serif;
+    background: #6ca8ac;
+  }
+  
+  .mac-book-air-1 {
+    position: relative;
+    min-height: 100vh;
+  }
+  
+  .navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #FD7401;
+    padding: 10px 20px;
+  }
+  
+  .menu-item {
+    font-size: 18px;
+    font-weight: 500;
+    color: #000;
+    margin: 0 15px;
+  }
+  
+  .search-container {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .search-bar {
+    border-radius: 20px;
+    border: 1px solid #ccc;
+    padding: 5px 10px;
+    width: 200px;
+  }
+  
+  .search-icon {
+    width: 20px;
+    height: 20px;
+  }
+  
+  .carrito-icon {
+    width: 30px;
+    height: 30px;
+  }
+  
+  .carrito-total {
+    font-size: 16px;
+    margin-left: 5px;
+  }
+  
+  .hero {
+    padding: 50px 20px;
+    color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .allpets-title {
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .hero-description {
+    font-size: 18px;
+    margin-bottom: 20px;
+  }
+  
+  .hero-buttons {
+    display: flex;
+    gap: 15px;
+  }
+  
+  .button-primary,
+  .button-secondary {
+    border: none;
+    border-radius: 25px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .button-primary {
+    background-color: #fd7401;
+    color: white;
+  }
+  
+  .button-secondary {
+    background-color: white;
+    border: 1px solid #fd7401;
+    color: #fd7401;
+  }
+  
+  .hero-image {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin-top: 20px;
+   
+  }
+  

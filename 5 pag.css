@@ -1,0 +1,87 @@
+/* Estilos generales */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Inter", sans-serif;
+    background-color: #6ca8ac;
+    color: #000;
+    line-height: 1.6;
+}
+
+/* Contenedor principal */
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100vh;
+}
+
+/* Encabezado */
+.header {
+    text-align: center;
+    margin: 20px 0;
+    color: #fff;
+}
+
+.header h1 {
+    font-size: 24px;
+    font-weight: 600;
+}
+
+/* Contenedor del video */
+.video-container {
+    background-color: #020202;
+    width: 663px;
+    height: 366px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+}
+
+/* Íconos */
+.icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    margin: 20px 0;
+}
+
+.icon {
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+    transition: transform 0.3s ease;
+}
+
+.icon:hover {
+    transform: scale(1.1);
+}
+
+/* Barra inferior */
+.footer-bar {
+    background-color: #f0f0f0;
+    border: 1px solid #000;
+    height: 65px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+}
+
+.rights,
+.privacy-policy {
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.privacy-policy {
+    text-decoration: underline;
+    cursor: pointer;
+}
